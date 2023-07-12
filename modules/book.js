@@ -1,0 +1,11 @@
+export const bookSection = document.querySelector("#library");
+export const titleText = document.querySelector("#title");
+export const authorText = document.querySelector("#author");
+export const form = document.querySelector("form");
+export const listbtn = document.querySelector("#listbtn");
+export const addlistbtn = document.querySelector("#addlistbtn");
+export const contactbtn = document.querySelector("#contactbtn");
+export const list = document.getElementById("list");
+export const newbooks = document.getElementById("newbooks");
+export const contact = document.getElementById("contact");
+export const date = document.getElementById("date");
