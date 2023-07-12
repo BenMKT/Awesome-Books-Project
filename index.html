@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Awesome Books</h1>
+            <ul>
+                <li><a href="#list" id="listbtn">List</a></li>
+                <li>|</li>
+                <li><a href="#newbooks" id="addlistbtn">Add new</a></li>
+                <li>|</li>
+                <li><a href="#contact" id="contactbtn">Contact</a></li>
+            </ul>
+        </nav>
+        <span id="date"></span>
+    </header>
+
+    <section id="list">
+        <h2>All awesome books</h2>
+        <div id="library">
+
+        </div>
+    </section>
+    <section id="newbooks">
+        <h2>Add a new book</h2>
+        <form action="">
+            <input type="text" name="title" id="title" placeholder="Title"><br><br>
+            <input type="text" name="author" id="author" placeholder="Author"><br><br>
+            <button id="addBtn" type="submit"><p>Add</p></button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Do you have any questions or do you want to say "Hello"?<br>
+        You can reach out to us!</p>
+        <ul>
+            <li><p>Our e-mail: mail@mail.com</p></li>
+            <li><p>Our Phone Number: 04568723334</p></li>
+            <li><p>Our Address: Streetname 22, 846462 City, Country</p></li>
+        </ul>
+    </section>
+    <footer>
+        <p>© Copyright 2023 Awesome Books</p>
+    </footer>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
