@@ -1,7 +1,4 @@
 import {
-    // bookSection,
-    // titleText,
-    // authorText,
     form,
     listbtn,
     addlistbtn,
@@ -12,12 +9,7 @@ import {
     date,
 } from "./modules/book.js";
 
-// showClass.js
 import Book from "./modules/class.js";
-// window.Function = () => {
-//   bookList.remove("${n.id}");
-// };
-
 
 const bookList = new Book();
 
@@ -72,6 +64,3 @@ function clock() {
 
 setInterval(clock, 1000);
 
-const removebtn = document.querySelectorAll(".remove");
-
-console.log(removebtn.length);
