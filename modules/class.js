@@ -36,7 +36,7 @@ export default class Book {
     const bookObject = {};
     bookObject.title = titleText.value;
     bookObject.author = authorText.value;
-    bookObject.id = (titleText.value + authorText.value).replace(/\s/g, "");
+    bookObject.id = Math.floor(Math.random() * 1000000) + 1;
     this.bookLibrary.push(bookObject);
     localStorage.setItem("jsonLibrary", JSON.stringify(this.bookLibrary));
     this.insertHtml();
