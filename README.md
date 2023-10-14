@@ -5,7 +5,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>-->
 
-  <h3><b>Awseome Books Project</b></h3>
+  <h3><b>Awesome Books Project</b></h3>
 
 </div>
 
@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awseome Books Project <a name="about-project"></a>
+# 📖 Awesome Books Project <a name="about-project"></a>
 
-**Awseome Books Project** is a virtual library project to track a collection of books.
+**Awesome Books Project** is a virtual library project to track a collection of books.
 
 ## 🛠 Built With <a name="built-with"></a>
 
